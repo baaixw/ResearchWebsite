@@ -26,6 +26,7 @@ exclude:
   - README.md
   - scripts/
   - not-pure-poole.gemspec
+  - vendor/
 
 # Optimize Jekyl SEO Tag
 twitter:
@@ -57,3 +58,8 @@ author:
   name: Songzi Vong
   url: https://github.com/vszhub/
   email: vszhub@gmail.com
+
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: vszhub/not-pure-poole
